@@ -27,8 +27,8 @@ requirements:
     - pytest
 
 test:
-  commands:
-    - python -c "from pydp import pydp.pydp"
+  imports:
+    - pydp.dp.pydp
 
 about:
   home: https://github.com/OpenMined/PyDP
